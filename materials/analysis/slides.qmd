@@ -19,8 +19,7 @@ editor_options:
 
 ```{r}
 #| include: false
-library(tidyverse)
-library(fable)
+library(fpp3)
 ```
 
 ## {}
@@ -35,7 +34,7 @@ Tidy time series analysis and forecasting
 :::
 
 ::: {.subtitle data-id="subtitle"}
-Time series data
+Time series data and patterns
 :::
 
 ::: {.dateplace}

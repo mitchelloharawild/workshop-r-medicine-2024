@@ -19,8 +19,7 @@ editor_options:
 
 ```{r}
 #| include: false
-library(tidyverse)
-library(fable)
+library(fpp3)
 ```
 
 ## {}
