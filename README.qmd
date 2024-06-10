@@ -29,8 +29,18 @@ Organisations of all types collect vast amounts of time series data, and there i
 #### Structure
 
 * Time series exploratory data analysis
+  * Time series data (tsibble, key, index)
+  * Time series patterns (trend, seasonality, cycles)
+  * Time series visualisation (time, seasonal, subseries, ACF plots)
 * Modelling and forecasting
+  * Simple models (Naive, Seasonal naive, RW w/ drift)
+  * ETS (additive and multiplicative patterns)
+  * Transformations
+  * ARIMA (autocorrelations)
 * Accuracy evaluation
+  * Accuracy measures
+  * Training sets, test sets, and cross-validation
+  * Residual diagnostics
 
 ### Format
 

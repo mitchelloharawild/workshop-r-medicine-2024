@@ -6,9 +6,7 @@ project:
     - "data/*"
   render:
     - "*.qmd"
-    - "!materials"
     - "!README.Rmd"
-  pre-render: zip.R
 
 website:
   page-navigation: true
@@ -41,40 +39,21 @@ website:
         menu:
           - text: Everything
             href: 'https://github.com/mitchelloharawild/workshop-r-medicine-2024/archive/refs/heads/main.zip'
-          # - text: Slides
-            # href: 'slides.zip'
-          # - text: Lab sessions
-          #   href: 'labs.zip'
       - icon: file-certificate
         href: license.qmd
       - icon: github
         href: https://github.com/mitchelloharawild/workshop-r-medicine-2024
-    # left:
-      # - text: Sessions
-      #   menu:
-      #     - text: Background
-      #       href: sessions/day1/00_intro.qmd
-      #     - text: Introduction to tsibbles
-      #       href: sessions/day1/01_tsibble.qmd
-      #     - text: Time series graphics
-      #       href: sessions/day1/02_graphics.qmd
-      #     - text: Transformations
-      #       href: sessions/day1/03_transformations.qmd
-      #     - text: Seasonality and trends
-      #       href: sessions/day1/04_decomposition.qmd
-      #     - text: Time series features
-      #       href: sessions/day1/05_features.qmd
-      #     - text: Introduction to forecasting
-      #       href: sessions/day2/06_forecasting.qmd
-      #     - text: Exponential smoothing
-      #       href: sessions/day2/07_ets.qmd
-      #     - text: ARIMA models
-      #       href: sessions/day2/08_arima.qmd
-      #     - text: Dynamic regression
-      #       href: sessions/day2/09_dynreg.qmd
-      #     - text: Hierarchical forecasting
-      #       href: sessions/day2/10_hierarchical.qmd
-      # - href: schedule.qmd
+    left:
+    - text: Slides
+      menu:
+        - text: Time series data and patterns
+          href: materials/analysis/slides.qmd
+        - text: Modelling and forecasting
+          href: materials/modelling/slides.qmd
+        - text: Accuracy evaluation
+          href: materials/accuracy/slides.qmd
+    - text: Feedback
+      href: https://feedback.nectric.com.au/oZyK
 
 format:
   html:
