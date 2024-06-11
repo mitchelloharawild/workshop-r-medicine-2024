@@ -4,6 +4,7 @@ project:
     - "images/twitter-card.png"
     - "materials/*.pdf"
     - "data/*"
+    - "lab.R"
   render:
     - "*.qmd"
     - "!README.Rmd"
@@ -54,6 +55,8 @@ website:
           href: materials/accuracy/slides.qmd
     - text: Feedback
       href: https://feedback.nectric.com.au/oZyK
+    - text: Workshop code
+      href: lab.R
 
 format:
   html:
