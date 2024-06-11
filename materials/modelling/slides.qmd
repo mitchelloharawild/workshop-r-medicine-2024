@@ -5,7 +5,7 @@ execute:
 format:
   letterbox-revealjs:
     theme: [default]
-    css: [theme.scss]
+    css: [theme.css]
     progress: false
     menu: false
     width: 1280
